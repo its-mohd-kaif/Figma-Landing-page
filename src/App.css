@@ -1,0 +1,12 @@
+/* CSS for APP Component */
+.App {
+  width: 1200px;
+  margin: auto;
+}
+
+/* Media query */
+@media screen and (max-width: 1120px) {
+  .App {
+    width: auto;
+  }
+}

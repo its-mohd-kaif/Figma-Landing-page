@@ -1,0 +1,93 @@
+/* CSS for main component */
+.main {
+  display: flex;
+  column-gap: 170px;
+  font-family: "Inter";
+  background-image: url("../../images/Rectangle\ 502.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  padding-top: 91px;
+}
+
+.main__column1 {
+  display: flex;
+  column-gap: 20px;
+  padding-left: 60px;
+}
+
+.main__column1__heading {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 8.31px;
+}
+
+.main__column1__text {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.socialDiv {
+  padding-left: 60px;
+  margin-top: 49.62px;
+}
+
+.socialDiv__heading {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 26px;
+}
+
+.socialDiv__row {
+  display: flex;
+  column-gap: 45px;
+  margin-bottom: 30px;
+}
+
+.socialDiv__row__img {
+  margin-top: 1em;
+}
+
+.socialDiv__row__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.socialDiv__row__text {
+  color: #646e79;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.mainColumn2__title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+}
+
+.mainColumn2__card {
+  padding: 54.57px 38.4px;
+  border: 2px solid #e0e0e0;
+  border-radius: 20px;
+  background: #ffffff;
+  margin-top: 24px;
+}
+
+/* Media Query */
+@media screen and (max-width: 1120px) {
+  .main {
+    background-image: none;
+    column-gap: 7em;
+  }
+}
+@media screen and (max-width: 724px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 1em;
+  }
+}
