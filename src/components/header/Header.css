@@ -1,5 +1,5 @@
 /* CSS for header component */
-.head {
+.header {
   background-image: url("../../images/Ellipse\ cut.png");
   background-repeat: no-repeat;
   background-position-x: right;
@@ -7,24 +7,24 @@
   color: #1b3764;
 }
 
-.ellipseDiv {
+.header__ellipse {
   float: left;
   margin-left: 76.99px;
   margin-top: 32.14px;
 }
 
-.header {
+.header__title {
   display: flex;
   justify-content: center;
   padding-top: 62.41px;
   margin-right: 13em;
 }
 
-.header__img {
+.header__title__img {
   height: 59.74px;
 }
 
-.header__title {
+.header__title__heading {
   font-weight: 700;
   font-size: 59.7412px;
   margin-left: 18.67px;
@@ -32,14 +32,14 @@
   margin-top: -0.2em;
 }
 
-.subtitle {
+.header__subtitle {
   text-align: center;
   font-weight: 500;
   font-size: 25px;
   margin-top: 20px;
 }
 
-.text {
+.header__text {
   text-align: center;
   margin-top: 24px;
   font-weight: 400;
@@ -48,6 +48,6 @@
   margin-right: 68.34px;
 }
 
-.mainImg {
+.header__mainImg {
   width: 100%;
 }

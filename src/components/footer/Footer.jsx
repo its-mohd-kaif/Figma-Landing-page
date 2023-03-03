@@ -6,12 +6,13 @@ import unsplash from "../../images/unsplash.png";
 import cardo from "../../images/cardo.png";
 import inter from "../../images/inter.png";
 function Footer() {
+  // Footer Component
   return (
     <section>
       <div className="footer">
         <div>
           <div className="footer__title">Images</div>
-          <div className="footer__social__div">
+          <div className="footer__social">
             <span>
               <img src={pexels} alt="arrow" />
             </span>
@@ -30,7 +31,7 @@ function Footer() {
             </aside>
           </div>
 
-          <div className="footer__social__div">
+          <div className="footer__social">
             <span>
               <img src={unsplash} alt="arrow" />
             </span>
@@ -51,7 +52,7 @@ function Footer() {
         </div>
         <div>
           <div className="footer__title">Fonts</div>
-          <div className="footer__social__div">
+          <div className="footer__social">
             <span>
               <img src={cardo} alt="arrow" />
             </span>
@@ -67,7 +68,7 @@ function Footer() {
             </span>
           </div>
 
-          <div className="footer__social__div">
+          <div className="footer__social">
             <span>
               <img src={inter} alt="arrow" />
             </span>

@@ -11,66 +11,62 @@ import webflow from "../../images/Group.png";
 function Main() {
   return (
     <section className="main">
-      <div>
-        <div className="main__column1">
+      <div className="main__victor">
+        <div className="main__victor__title">
+          <img src={vImg} alt="v img" />
           <div>
-            <img src={vImg} alt="v img" />
-          </div>
-          <div>
-            <div className="main__column1__heading">VictorFlow</div>
-            <div className="main__column1__text">
+            <div className="main__victor__title__heading">VictorFlow</div>
+            <div className="main__victor__title__text">
               Webflow Design &<aside>Development Agency</aside>
             </div>
           </div>
         </div>
-        <div className="socialDiv">
-          <div className="socialDiv__heading">Follow Us</div>
-          <div className="socialDiv__row">
+        <div className="main__victor__social">
+          <div className="main__victor__social__heading">Follow Us</div>
+          <div className="main__victor__social__block">
+            <img src={ig} alt="ig" />
             <div>
-              <img className="socialDiv__row__img" src={ig} alt="ig" />
-            </div>
-            <div>
-              <div className="socialDiv__row__title">
+              <div className="main__victor__social__block__heading">
                 Instagram{" "}
                 <span>
                   <img src={arrow} alt="arrow" />
                 </span>
               </div>
-              <div className="socialDiv__row__text">
+              <div className="main__victor__social__block__text">
                 Join our Instagram page, We share UI/UX{" "}
                 <aside>Design tips.</aside>
               </div>
             </div>
           </div>
-          <div className="socialDiv__row">
+          <div className="main__victor__social__block">
             <div>
-              <img className="socialDiv__row__img" src={tw} alt="ig" />
+              <img src={tw} alt="ig" />
             </div>
             <div style={{ marginLeft: "-0.6em" }}>
-              <div className="socialDiv__row__title">
+              <div className="main__victor__social__block__heading">
                 Twitter{" "}
                 <span>
                   <img src={arrow} alt="arrow" />
                 </span>
               </div>
-              <div className="socialDiv__row__text">
+              <div className="main__victor__social__block__text">
                 Join our Instagram page, We share UI/UX{" "}
                 <aside>Design tips.</aside>
               </div>
             </div>
           </div>
-          <div className="socialDiv__row">
+          <div className="main__victor__social__block">
             <div>
-              <img className="socialDiv__row__img" src={inImg} alt="ig" />
+              <img src={inImg} alt="ig" />
             </div>
             <div>
-              <div className="socialDiv__row__title">
+              <div className="main__victor__social__block__heading">
                 LinkedIn{" "}
                 <span>
                   <img src={arrow} alt="arrow" />
                 </span>
               </div>
-              <div className="socialDiv__row__text">
+              <div className="main__victor__social__block__text">
                 Join our Instagram page, We share UI/UX{" "}
                 <aside>Design tips.</aside>
               </div>
@@ -78,36 +74,39 @@ function Main() {
           </div>
         </div>
       </div>
-      <div>
-        <div className="mainColumn2__title">File Info</div>
-        <div className="mainColumn2__card">
-          <div className="socialDiv__row">
+      <div className="main__file">
+        <div className="main__file__title">File Info</div>
+        <div className="main__file__card">
+          <div className="main__victor__social__block">
             <div>
-              <img className="socialDiv__row__img" src={figma} alt="ig" />
+              <img src={figma} alt="ig" />
             </div>
             <div>
-              <div className="socialDiv__row__title">
+              <div className="main__victor__social__block__heading">
                 Figma File for&nbsp;
                 <span style={{ color: "#4353FF" }}>FREE</span>
               </div>
-              <div className="socialDiv__row__text">
+              <div className="main__victor__social__block__text">
                 It is free to use for personal and{" "}
                 <aside>commercial purposes.</aside>
               </div>
             </div>
           </div>
-          <div className="socialDiv__row">
+          <div className="main__victor__social__block">
             <div>
-              <img className="socialDiv__row__img" src={webflow} alt="ig" />
+              <img src={webflow} alt="ig" />
             </div>
             <div>
-              <div className="socialDiv__row__title">Webflow</div>
-              <div className="socialDiv__row__text">
+              <div className="main__victor__social__block__heading">
+                Webflow
+              </div>
+              <div className="main__victor__social__block__text">
                 The complete design is available as a{" "}
                 <aside>Webflow template.</aside>
               </div>
             </div>
           </div>
+          <button className="main__file__btn">Get Template $79 USD</button>
         </div>
       </div>
     </section>
